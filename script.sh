@@ -7,7 +7,7 @@ mysql_install_db --user mysql > /dev/null
 MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD:-"asdasd"}
 MYSQL_DATABASE=${MYSQL_DATABASE:-""}
 MYSQL_USER=${MYSQL_USER:-""}
-MYSQL_PASSWORD=${MYSQL_PASSWORD:-""}
+MYSQL_PASSWORD=${MYSQL_PASSWORD:-"asdasd"}
 
 tfile=`mktemp`
 if [[ ! -f "$tfile" ]]; then
